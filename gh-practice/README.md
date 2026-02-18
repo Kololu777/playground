@@ -19,7 +19,7 @@ gh auth status
 
 ```bash
 # リポジトリをクローン
-gh repo clone owner/repo
+gh repo clone Kololu777/playground
 
 # ブラウザでリポジトリを開く
 gh repo view --web
