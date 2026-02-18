@@ -81,4 +81,25 @@ gh pr --help
 gh issue --help
 ```
 
-必要ならこのファイルに「実際の作業フロー（branch 作成 → push → PR 作成）」も追記できます。
+## 7. GitHub Actions サンプル（main にマージ前のPRで実行）
+
+`main` に向けた Pull Request が作成・更新されたときに `echo hello` を実行する例です。
+
+配置先: `.github/workflows/pr-main-hello.yml`
+
+```yaml
+name: PR to main hello
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo hello
+```
