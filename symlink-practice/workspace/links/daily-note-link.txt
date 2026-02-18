@@ -1,0 +1,1 @@
+../../source/docs/daily note.txt
