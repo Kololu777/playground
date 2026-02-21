@@ -137,3 +137,17 @@ gh pr merge 2 --squash --delete-branch
 ## 補足
 
 `gh pr merge` が失敗するときは、まず `gh pr view <番号>` で状態（レビュー・チェック・コンフリクト）を確認すると早いです。
+
+
+remote側にあわせるには？
+
+● cd ~/.config/nix-config && git pull --rebase origin main
+
+  これでローカルの main がリモートのsquash
+  commitに合わせてリベースされます。
+
+  もしローカルに未コミットの変更がなければ、より単純に：
+
+  git reset --hard origin/main
+
+  でもOKです（ローカルの main をリモートと完全に一致させる）。
