@@ -1,0 +1,11 @@
+id,name,email,department,salary
+1,Alice,alice@example.com,Engineering,95000
+2,Bob,bob@example.com,Marketing,82000
+3,Charlie,charlie@example.com,Engineering,98000
+4,Diana,diana@example.com,Design,88000
+5,Eve,eve@example.com,Engineering,102000
+6,Frank,frank@example.com,Marketing,79000
+7,Grace,grace@example.com,Design,91000
+8,Hank,hank@example.com,Engineering,105000
+9,Ivy,ivy@example.com,Marketing,84000
+10,Jack,jack@example.com,Design,87000

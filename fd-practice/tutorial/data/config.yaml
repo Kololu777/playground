@@ -1,0 +1,28 @@
+app:
+  name: fd-practice
+  version: 1.0.0
+  environment: development
+
+server:
+  host: 0.0.0.0
+  port: 3000
+  cors:
+    origins:
+      - http://localhost:3000
+      - http://localhost:5173
+
+database:
+  host: localhost
+  port: 5432
+  name: fd_practice
+  pool_size: 10
+
+logging:
+  level: info
+  format: json
+  file: logs/app.log
+
+features:
+  dark_mode: true
+  notifications: false
+  max_upload_size_mb: 50

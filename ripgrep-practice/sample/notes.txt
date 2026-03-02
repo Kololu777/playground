@@ -1,0 +1,27 @@
+Project Notes
+=============
+
+Meeting 2024-01-15:
+- Discussed renaming foo to bar in the codebase
+- The old_name variable should be updated to new_name
+- foo appears in multiple files and needs consistent replacement
+
+TODO: Review the architecture document
+todo: send email to the team about the deadline
+Todo: Update the project roadmap
+
+Known Issues:
+- The foo module sometimes fails on large inputs
+- old_name is referenced in 3 configuration files
+- Performance degrades when foo processes more than 1000 items
+
+Action Items:
+1. Replace all instances of foo with bar
+2. Rename old_name to new_name across the project
+3. Update documentation to reflect the foo -> bar change
+4. Run the full test suite after renaming
+
+Technical Debt:
+- foo was originally a quick prototype
+- The naming convention for old_name doesn't follow our standards
+- Need to refactor the foo/bar boundary in the API layer
