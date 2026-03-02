@@ -1,0 +1,26 @@
+{
+  "name": "fd-practice",
+  "version": "1.0.0",
+  "description": "Sample project for fd command practice",
+  "main": "src/app/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/app/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:e2e": "vitest run test/integration",
+    "lint": "eslint src/ test/",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}

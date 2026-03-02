@@ -1,0 +1,11 @@
+id,name,email,department,role,created_at
+1,Alice Johnson,alice@example.com,Engineering,admin,2024-01-15
+2,Bob Smith,bob@example.com,Marketing,user,2024-02-20
+3,Charlie Brown,charlie@example.com,Engineering,user,2024-03-10
+4,Diana Lee,diana@example.com,Design,user,2024-03-22
+5,Eve Wilson,eve@example.com,Engineering,admin,2024-04-05
+6,Frank Miller,frank@example.com,Sales,user,2024-05-12
+7,Grace Chen,grace@example.com,Design,user,2024-06-01
+8,Hank Davis,hank@example.com,Engineering,user,2024-06-18
+9,Ivy Taylor,ivy@example.com,Marketing,user,2024-07-03
+10,Jack Anderson,jack@example.com,Engineering,user,2024-07-20

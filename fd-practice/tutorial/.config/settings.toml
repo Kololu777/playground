@@ -1,0 +1,18 @@
+[app]
+name = "fd-practice"
+version = "1.0.0"
+debug = true
+
+[theme]
+mode = "dark"
+accent_color = "#4a9eff"
+font_size = 14
+
+[editor]
+tab_size = 2
+auto_save = true
+format_on_save = true
+
+[logging]
+level = "debug"
+output = "stdout"
