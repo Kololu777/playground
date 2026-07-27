@@ -1,11 +1,12 @@
-_commit: v2.0.0
+_commit: v1.0.2
 _src_path: /home/ko/ghq/github.com/Kololu777/playground/copir-practice/templates/pyproj-template/
 authors:
 -   email: taro@example.com
     name: Taco Taro
+docs_tool: mkdocs
 license: MIT
 linters:
 - ruff
-project_name: Taco Shop
-project_slug: taco_shop
-use_docs: false
+project_name: Doc Proj
+project_slug: doc_proj
+use_docs: true
